@@ -1,5 +1,5 @@
 # GoodDatePHP
-PHP class that takes date in "yymmdd" format and converts to a human-readable string in a given language.
+PHP class used to convert date from "yymmdd" format to a human-readable string in a given language.
 ## How to use
 ```php
 include "/path/to/php/gooddate.php";
