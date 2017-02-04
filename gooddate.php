@@ -1,4 +1,8 @@
 <?php
+/*
+GoodDate: from yymmdd to human-readable date format
+Author: Heydar Gerayzade
+*/
 
 class GoodDate {
 	private $dateN, $monthStr, $yearN, $monthN, $dayN;
