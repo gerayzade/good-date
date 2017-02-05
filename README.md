@@ -14,7 +14,7 @@ $gooddate = new GoodDate($baddate);
 echo $gooddate->convertDate('en');
 // printing date as a human-readable string in English language: 2 Jan. 2017
 ```
-## Supported languages: 
+## Supported languages
 <ul>
 <li>English (<b>en</b>)</li>
 <li>Russian (<b>ru</b>)</li>
@@ -24,3 +24,9 @@ echo $gooddate->convertDate('en');
 <li>Spanish (<b>es</b>)</li>
 <li>Italian (<b>it</b>)</li>
 </ul>
+
+You can easily extend the class by declaring new array <b>$month_[lang]</b> with names of months in this language.
+```php
+private $month_en = array('Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.');
+```
+
