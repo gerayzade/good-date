@@ -6,9 +6,13 @@ Author: Heydar Gerayzade
 
 class GoodDate {
 	private $dateN, $monthStr, $yearN, $monthN, $dayN;
-	private $month_en = array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec');
-	private $month_ru = array('Янв', 'Фев', 'Мар', 'Апр', 'Мая', 'Июня', 'Июля', 'Авг', 'Сеп', 'Окт', 'Ноя', 'Дек');
-	private $month_az = array('Yan', 'Fev', 'Mar', 'Apr', 'May', 'Iyun', 'Iyul', 'Avg', 'Sent', 'Okt', 'Noy', 'Dek');
+	private $month_en = array('Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.');
+	private $month_de = array('Jän.', 'Feb.', 'März', 'Apr.', 'Mai', 'Juni', 'Juli', 'Aug.', 'Sept.', 'Okt.', 'Nov.', 'Dez.');
+	private $month_fr = array('Janv.', 'Févr.', 'Mars.', 'Avril', 'Mai', 'Juin', 'Juil', 'Août', 'Sept.', 'Oct.', 'Nov.', 'Déc.');
+	private $month_es = array('Enero', 'Feb.', 'Marzo', 'Abr.', 'Mayo', 'Jun.', 'Jul.', 'Agosto', 'Sept.', 'Oct.', 'Nov.', 'Dic.');
+	private $month_it = array('Genn.', 'Febbr.', 'Mar.', 'Apr.', 'Magg', 'Giugno', 'Luglio', 'Ag.', 'Sett.', 'Ott.', 'Nov.', 'Dic.');
+	private $month_ru = array('Янв.', 'Фев.', 'Мар.', 'Апр.', 'Мая', 'Июня', 'Июля', 'Авг.', 'Сент.', 'Окт.', 'Нояб.', 'Дек.');
+	private $month_az = array('Yan.', 'Fev.', 'Mar.', 'Apr.', 'May', 'Iyun', 'Iyul', 'Avg.', 'Sent.', 'Okt.', 'Noy.', 'Dek.');
 	  
 	public function __construct($dateN) {
 		$this->dateN = $dateN; // yyddmm: 170117
