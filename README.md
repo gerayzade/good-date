@@ -25,8 +25,9 @@ echo $gooddate->convertDate('en');
 <li>Italian (<b>it</b>)</li>
 </ul>
 
-You can easily extend the class by declaring new array <b>$month_[lang]</b> with names of months in this language.
+You can easily extend the class by declaring new array <b>$month_[lang]</b> with names of months in it.
 ```php
 private $month_en = array('Jan.', 'Feb.', 'Mar.', 'Apr.', ..., 'Nov.', 'Dec.');
+// for ex. this array stands for dates in English language
 ```
 
