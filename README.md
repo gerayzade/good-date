@@ -19,4 +19,8 @@ echo $gooddate->convertDate('en');
 <li>English (<b>en</b>)</li>
 <li>Russian (<b>ru</b>)</li>
 <li>Azerbaijani (<b>az</b>)</li>
+<li>Germani (<b>de</b>)</li>
+<li>French (<b>fr</b>)</li>
+<li>Spanish (<b>es</b>)</li>
+<li>Italian (<b>it</b>)</li>
 </ul>
