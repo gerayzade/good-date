@@ -9,7 +9,7 @@ $baddate = "170102";
 // 17 (yy), 01 (mm), 02 (dd) 
 
 $gooddate = new GoodDate($baddate);
-// constructing new gooddate
+// instantiation
 
 echo $gooddate->convertDate('en');
 // printing date as a human-readable string in English language: 2 Jan 2017
