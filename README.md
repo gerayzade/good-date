@@ -12,7 +12,7 @@ $gooddate = new GoodDate($baddate);
 // instantiation
 
 echo $gooddate->convertDate('en');
-// printing date as a human-readable string in English language: 2 Jan 2017
+// printing date as a human-readable string in English language: 2 Jan. 2017
 ```
 ## Supported languages: 
 <ul>
