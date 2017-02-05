@@ -27,6 +27,6 @@ echo $gooddate->convertDate('en');
 
 You can easily extend the class by declaring new array <b>$month_[lang]</b> with names of months in this language.
 ```php
-private $month_en = array('Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.');
+private $month_en = array('Jan.', 'Feb.', 'Mar.', 'Apr.', ..., 'Nov.', 'Dec.');
 ```
 
