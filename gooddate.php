@@ -42,7 +42,7 @@ class GoodDate {
 		$this->monthStr = $month_ar[$this->monthN - 1]; // Jan (month_en[0])
 		
 		return $this->dayN . " " . $this->monthStr . " 20" . $this->yearN;
-		// returning formatted date in given language: 17 Jan 2017
+		// returning formatted date in given language: 17 Jan. 2017
 	}
 }
 
